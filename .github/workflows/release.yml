@@ -1,0 +1,76 @@
+name: Release Modpack
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'pack.toml'
+
+jobs:
+  release:
+    environment:
+      name: production
+      url: https://modrinth.com/modpack/superhero-modpack/
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Check for version change
+        id: check_version
+        run: |
+          # Get the current version from pack.toml
+          CURRENT_VERSION=$(grep 'version = ' pack.toml | cut -d '"' -f 2)
+          MC_VERSION=$(grep 'minecraft = ' pack.toml | cut -d '"' -f 2)
+          
+          # Get the previous version from the last commit
+          PREVIOUS_VERSION=$(git show HEAD^:pack.toml | grep 'version = ' | cut -d '"' -f 2)
+          
+          if [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
+            echo "Version changed from $PREVIOUS_VERSION to $CURRENT_VERSION"
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+            echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+            
+            # Construct filename: thematipack-fabric-1.20.1-1.5.34
+            FILENAME="thematipack-fabric-$MC_VERSION-$CURRENT_VERSION"
+            echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+          else
+            echo "Version did not change ($CURRENT_VERSION)"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Export Modpack
+        if: steps.check_version.outputs.changed == 'true'
+        run: |
+          FILENAME="${{ steps.check_version.outputs.filename }}"
+          packwiz modrinth export --output "${FILENAME}.mrpack"
+          packwiz curseforge export --output "${FILENAME}.zip"
+
+      - name: Publish Modpack
+        if: steps.check_version.outputs.changed == 'true'
+        uses: kir-antipov/mc-publish@v3.3
+        with:
+          modrinth-id: H2FuEoJM
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-files: ${{ steps.check_version.outputs.filename }}.mrpack
+          modrinth-version: ${{ steps.check_version.outputs.version }}
+          modrinth-name: "thematipack-fabric-${{ steps.check_version.outputs.mc_version }})-${{ steps.check_version.outputs.version }}"
+          
+          curseforge-id: 891633
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          curseforge-files: ${{ steps.check_version.outputs.filename }}.zip
+          curseforge-version: ${{ steps.check_version.outputs.version }}
+          curseforge-name: "thematipack-fabric-${{ steps.check_version.outputs.mc_version }})-${{ steps.check_version.outputs.version }}"
