@@ -241,3 +241,15 @@ metafile = true
 [[files]]
 file = "pointblank/Cyberpunk_2077_Guns_Pack_1.17.2.zip"
 hash = "ea83a299506a81ec5cc3f7e0039e6d9199f21af0698b3d15f8320da92442f32f"
+
+[[files]]
+file = "pointblank/RedDeadWeaponry.zip"
+hash = "0ebb1c22f9438e8a0f0ba08a3256c94b1460e2df8a0cfc6d77a76a67e630b11b"
+
+[[files]]
+file = "pointblank/doom-ext v1.3.5.zip"
+hash = "3ac4ab8075c70a73a0bb713b46153cf2c24ad6dac63327a2e7249dcee1f1f62b"
+
+[[files]]
+file = "pointblank/halflife-ext 0.7.zip"
+hash = "747ef59203d18df7b17c99c7bc59087390b576581f8e4baefc213e871ba6a178"
