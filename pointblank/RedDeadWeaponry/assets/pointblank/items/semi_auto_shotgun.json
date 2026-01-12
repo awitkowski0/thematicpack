@@ -1,0 +1,81 @@
+{
+  "name" : "semi_auto_shotgun",
+  "type": "Gun",
+  "maxAmmoCapacity" : 5,
+  "maxAmmoPerReloadIteration" : 1,
+  "compatibleAmmo" : ["ammocreative", "shotgun_ammo"],
+  "pelletCount" : 25,
+  "pelletSpread" : 0.2,
+  "damage" : 4.5,
+  "rpm" : 200,
+  "reloadCooldownDuration" : 2500,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "fire_shotgun_semiauto",
+  "drawCooldownDuration" : 1200,
+  "aimingZoom" : 0.25,
+  "max_shooting_distance" : 30, 
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.65,
+  "shakeRecoilSpeed" : 3.5,
+  "viewRecoilAmplitude" : 7,
+  "inspectCooldownDuration" : 4270,
+  "muzzleFlashScale" : 2.5,
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 500,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 500,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 710,
+      "animation": "animation.model.iterativeload",
+	"shakeEffects": [
+        {
+            "start": 330,
+            "duration": 300,
+            "initialAmplitude": 0.1,
+            "rateOfAmplitudeDecay": 0.8
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 710,
+      "animation": "animation.model.iterativeload",
+	"shakeEffects": [
+        {
+            "start": 330,
+            "duration": 300,
+            "initialAmplitude": 0.1,
+            "rateOfAmplitudeDecay": 0.8
+        }
+      ]
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 420,
+      "animation": "animation.model.finish"
+    }
+  ],
+  "effects": [
+        {
+                "phase": "hit_scan_acquired",
+                "name": "tracer"
+        },
+        {
+                "phase": "firing",
+                "name": "muzzle_flash_big"
+        }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name" : "cp2077_militech_m179_achilles_xmod2",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "snipers_sights",
+    "sights_group",
+    "ar_supressors",
+    "ar_muzzle",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.45,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachmentGroup": "snipers_sights"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "sights_group"
+            }
+          ]
+        }
+    },
+    {
+        "type": "Sound",
+        "fireSound": "achilles_fire",
+        "fireSoundVolume": 0.55,
+        "condition": {
+          "allOf": [
+            {
+              "hasAttachmentGroup": "ar_suppressors"
+            }
+          ]
+        }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "glowSight",
+          "visible": true,
+          "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "snipers_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "sights_group"
+              }
+            ]
+          }
+        },
+        {
+          "name": "glowSight_chimera",
+          "visible": true,
+          "condition": {
+              "hasAttachmentGroup": "chimera"
+          }
+        },
+        {
+          "name": "sightemitters",
+          "visible": true,
+          "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "snipers_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "sights_group"
+              }
+            ]
+          }
+        },
+        {
+          "name": "sightemitters_chimera",
+          "visible": true,
+          "condition": {
+              "hasAttachmentGroup": "chimera"
+          }
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 8,
+  "compatibleAmmo" : ["ammo762x51", "ammolasercharge",  "ammocreative"],
+  "pelletCount": 3,
+  "pelletSpread": 0.001,
+  "damage" : 12.0,
+  "rpm" : 125,
+  "fireModes" : ["AUTOMATIC", "SINGLE"],
+  "fireSound" : "achilles_fire",
+  "drawCooldownDuration" : 830,
+  "prepareFireCooldownDuration": 525,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 6330,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "glowingParts": [
+    {
+      "name": "glow" 
+    },
+    {
+      "name": "glowSight"
+    },
+    {
+      "name": "glowSight_chimera"
+    },
+    {
+      "name": "charge_meter"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 5200,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

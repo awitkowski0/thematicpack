@@ -1,0 +1,13 @@
+name = "Defaulted Hotkeys"
+filename = "defaulted_hotkeys-2.1.1-1.20.4-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "00a347fa3b166691addc6fda4d57abf5a2def303"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7379303
+project-id = 1158440

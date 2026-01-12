@@ -1,0 +1,13 @@
+name = "SDM Market (Forge/Fabric)"
+filename = "sdm-market-fabric-6.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0badf9108a8ef5c16390771520c10a42fcc5d46"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6299632
+project-id = 1061821

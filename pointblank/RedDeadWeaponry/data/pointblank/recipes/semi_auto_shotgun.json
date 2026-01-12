@@ -1,0 +1,32 @@
+{
+    "type": "pointblank:default",
+    "ingredients": [
+      {
+        "count": 38,
+        "item": "pointblank:gunmetal_ingot"
+      },
+      {
+        "count": 18,
+        "item": "pointblank:guninternals"
+      },
+      {
+        "count": 9,
+        "tag": "forge:ingots/gold"
+      },
+      {
+        "count": 6,
+        "tag": "forge:ingots/iron"
+      },
+      {
+        "count": 3,
+        "item": "minecraft:lapis_lazuli"
+      },
+      {
+        "count": 9,
+        "tag" : "minecraft:planks"
+      }
+    ],
+    "result": {
+      "item": "pointblank:semi_auto_shotgun"
+    }
+}

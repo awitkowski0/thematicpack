@@ -1,0 +1,13 @@
+name = "Thematic"
+author = "funalex"
+version = "1.5.4"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bf063acbbc089eb6c21a8fc734efb368403b0ea72313625990d0a33dfa032679"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.20.1"

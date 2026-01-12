@@ -1,0 +1,442 @@
+{
+    "fire_repeater_lancaster": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_repeater_lancaster",
+                "stream": false
+            }
+        ]
+    },
+    "fire_repeater_litchfield": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_repeater_litchfield",
+                "stream": false
+            }
+        ]
+    },
+    "gun_cocking": {
+        "sounds": [
+            {
+                "name": "pointblank:gun_cocking",
+                "stream": false
+            }
+        ]
+    },
+    "fire_revolver_schofield": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_revolver_schofield",
+                "stream": false
+            }
+        ]
+    },
+    "gun_down": {
+        "sounds": [
+            {
+                "name": "pointblank:gun_down",
+                "stream": false
+            }
+        ]
+    },
+    "gun_up": {
+        "sounds": [
+            {
+                "name": "pointblank:gun_up",
+                "stream": false
+            }
+        ]
+    },
+    "fire_repeater_evans": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_repeater_evans",
+                "stream": false
+            }
+        ]
+    },
+    "fire_rifle_springfield": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_rifle_springfield",
+                "stream": false
+            }
+        ]
+    },
+    "repeater_bullet_load": {
+        "sounds": [
+            {
+                "name": "pointblank:repeater_bullet_load",
+                "stream": false
+            }
+        ]
+    },
+    "fire_pistol_mauser": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_pistol_mauser",
+                "stream": false
+            }
+        ]
+    },
+    "fire_revolver_doubleaction": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_revolver_doubleaction",
+                "stream": false
+            }
+        ]
+    },
+    "fire_rifle_rollingblock": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_rifle_rollingblock",
+                "stream": false
+            }
+        ]
+    },
+    "open_cylinder": {
+        "sounds": [
+            {
+                "name": "pointblank:open_cylinder2",
+                "stream": false
+            }
+        ]
+    },
+    "open_cylinder2": {
+        "sounds": [
+            {
+                "name": "pointblank:open_cylinder2",
+                "stream": false
+            }
+        ]
+    },
+    "close_cylinder": {
+        "sounds": [
+            {
+                "name": "pointblank:close_cylinder",
+                "stream": false
+            }
+        ]
+    },
+    "cylinder_rotate": {
+        "sounds": [
+            {
+                "name": "pointblank:cylinder_rotate",
+                "stream": false
+            }
+        ]
+    },
+    "ejector_rod": {
+        "sounds": [
+            {
+                "name": "pointblank:ejector_rod",
+                "stream": false
+            }
+        ]
+    },
+    "fire_revolver_cattleman": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_revolver_cattleman",
+                "stream": false
+            }
+        ]
+    },
+    "shell_eject": {
+        "sounds": [
+            {
+                "name": "pointblank:shell_eject",
+                "stream": false
+            }
+        ]
+    },
+    "bullet_strip_load": {
+        "sounds": [
+            {
+                "name": "pointblank:bullet_strip_load",
+                "stream": false
+            }
+        ]
+    },
+    "close_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:close_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "close_bolt_alt1": {
+        "sounds": [
+            {
+                "name": "pointblank:close_bolt_alt1",
+                "stream": false
+            }
+        ]
+    },
+    "close_bolt_alt2": {
+        "sounds" : [
+            {
+                "name": "pointblank:close_bolt_alt2",
+                "stream": false
+            }
+        ]
+    },
+    "open_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:open_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "open_bolt_alt1": {
+        "sounds": [
+            {
+                "name": "pointblank:open_bolt_alt1",
+                "stream": false
+            }
+        ]
+    },
+    "open_bolt_alt2": {
+        "sounds": [
+            {
+                "name": "pointblank:open_bolt_alt2",
+                "stream": false
+            }
+        ]
+    },
+    "fire_rifle_boltaction": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_rifle_boltaction",
+                "stream": false
+            }
+        ]
+    },
+    "fire_shotgun_sawedoff": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_shotgun_sawedoff",
+                "stream": false
+            }
+        ]
+    },
+    "fire_shotgun_semiauto": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_shotgun_semiauto",
+                "stream": false
+            }
+        ]
+    },
+    "dobelshotgun_close": {
+        "sounds": [
+            {
+                "name": "pointblank:dobelshotgun_close",
+                "stream": false
+            }
+        ]
+    },
+    "dobelbshotgun_open": {
+        "sounds": [
+            {
+                "name": "pointblank:dobelbshotgun_open",
+                "stream": false
+            }
+        ]
+    },
+    "shotgun_load_shell": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgun_load_shell",
+                "stream": false
+            }
+        ]
+    },
+    "shotgun_load_shell2": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgun_load_shell2",
+                "stream": false
+            }
+        ]
+    },
+    "fire_pistol_m1899": {
+            "sounds": [
+                {
+                    "name": "pointblank:fire_pistol_m1899",
+                    "stream": false
+                }
+            ]
+    },
+    "pistol_asup": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_asup",
+                "stream": false
+            }
+        ]
+    },
+    "pistol_kaluar": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_kaluar",
+                "stream": false
+            }
+        ]
+    },
+    "pistol_koking": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_koking",
+                "stream": false
+            }
+        ]
+    },
+    "hammer_cock": {
+        "sounds": [
+            {
+                "name": "pointblank:hammer_cock",
+                "stream": false
+            }
+        ]
+    },
+    "shotgun_shell_fell": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgun_shell_fell",
+                "stream": false
+            }
+        ]
+    },
+    "carbine_rodin": {
+        "sounds": [
+            {
+                "name": "pointblank:carbine_rodin",
+                "stream": false
+            }
+        ]
+    },
+    "carbine_rodout": {
+        "sounds": [
+            {
+                "name": "pointblank:carbine_rodout",
+                "stream": false
+            }
+        ]
+    },
+    "fire_repeater_carbine": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_repeater_carbine",
+                "stream": false
+            }
+        ]
+    },
+    "fire_pistol_volcanic": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_pistol_volcanic",
+                "stream": false
+            }
+        ]
+    },
+    "lever_open": {
+        "sounds": [
+            {
+                "name": "pointblank:lever_open",
+                "stream": false
+            }
+        ]
+    },
+    "lever_close": {
+        "sounds": [
+            {
+                "name": "pointblank:lever_close",
+                "stream": false
+            }
+        ]
+    },
+    "fire_shotgun_repeating": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_shotgun_repeating",
+                "stream": false
+            }
+        ]
+    },
+    "fire_shotgun_pumpaction": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_shotgun_pumpaction",
+                "stream": false
+            }
+        ]
+    },
+    "shotgunpump_forward": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgunpump_forward",
+                "stream": false
+            }
+        ]
+    },
+    "shotgunpump_back": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgunpump_back",
+                "stream": false
+            }
+        ]
+    },
+    "shotgun_pump": {
+        "sounds": [
+            {
+                "name": "pointblank:shotgun_pump",
+                "stream": false
+            }
+        ]
+    },
+    "fire_revolver_lematt": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_revolver_lematt",
+                "stream": false
+            }
+        ]
+    },
+    "fire_revolver_lematslug": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_revolver_lematslug",
+                "stream": false
+            }
+        ]
+    },
+    "pistol_hareup": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_hareup",
+                "stream": false
+            }
+        ]
+    },
+    "pistol_tukang": {
+        "sounds": [
+            {
+                "name": "pointblank:pistol_tukang",
+                "stream": false
+            }
+        ]
+    },
+    "fire_rifle_carcano": {
+        "sounds": [
+            {
+                "name": "pointblank:fire_rifle_carcano",
+                "stream": false
+            }
+        ]
+    }
+}

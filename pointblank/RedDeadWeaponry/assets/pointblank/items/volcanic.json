@@ -1,0 +1,87 @@
+{
+    "name" : "volcanic",
+    "type": "Gun",
+    "maxAmmoCapacity" : 8,
+    "maxAmmoPerReloadIteration" : 1,
+    "compatibleAmmo" : ["ammocreative", "pistol_ammo"],
+    "damage" : 11.2,
+    "rpm" : 85,
+    "fireModes" : ["SINGLE"],
+    "fireSound" : "fire_pistol_volcanic",
+    "drawCooldownDuration" : 600,
+    "aimingZoom" : 0.4,
+    "max_shooting_distance" : 350.0, 
+    "gunRecoilInitialAmplitude" : 0.8,
+    "shakeRecoilAmplitude" : 0.8,
+    "shakeRecoilSpeed" : 1,
+    "viewRecoilAmplitude" : 1,
+    "inspectCooldownDuration": 5540,
+    "phasedReloads": [
+      {
+        "phase": "PREPARING",
+        "condition": "reloadIterationIndex >= 0",
+        "duration": 790,
+        "animation": "animation.model.prepare",
+        "shakeEffects": [
+        ]
+      },
+      {
+        "phase": "PREPARING",
+        "condition": "reloadIterationIndex == -1",
+        "duration": 790,
+        "animation": "animation.model.prepare",						
+        "shakeEffects": [
+        ]
+      },
+      {
+        "phase": "RELOADING",
+        "condition": "reloadIterationIndex == 0",
+        "duration": 1210,
+        "animation": "animation.model.firstload",						
+        "shakeEffects": [
+          {
+            "start": 460,
+            "duration": 400,
+            "initialAmplitude": 0.3,
+            "rateOfAmplitudeDecay": 0.3
+          },
+          {
+            "start": 920,
+            "duration": 400,
+            "initialAmplitude": 0.3,
+            "rateOfAmplitudeDecay": 0.3
+          }
+        ]
+      },
+      {
+        "phase": "RELOADING",
+        "condition": "reloadIterationIndex > 0",
+        "duration": 920,
+        "animation": "animation.model.iterativeload",						
+        "shakeEffects": [
+          {
+            "start": 500,
+            "duration": 300,
+            "initialAmplitude": 0.2,
+            "rateOfAmplitudeDecay": 0.6
+          }
+        ]
+      },
+      {
+        "phase": "COMPLETETING",
+        "condition": "reloadIterationIndex >= 0",
+        "duration": 750,
+        "animation": "animation.model.finish"						
+      }  
+    ],
+    "effects": [
+          {
+                  "phase": "hit_scan_acquired",
+                  "name": "tracer"
+          },
+          {
+                  "phase": "firing",
+                  "name": "muzzle_flash"
+          }
+    ]
+  }

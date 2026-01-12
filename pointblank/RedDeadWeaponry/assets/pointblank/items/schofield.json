@@ -1,0 +1,126 @@
+{
+  "name" : "schofield",
+  "type": "Gun",
+  "maxAmmoCapacity" : 6,
+  "maxAmmoPerReloadIteration" : 1,
+  "compatibleAmmo" : ["ammocreative", "revolver_ammo"],
+  "damage" : 12,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "fire_revolver_schofield",
+  "drawCooldownDuration" : 1200,
+  "aimingZoom" : 0.3,
+  "max_shooting_distance" : 250.0, 
+  "gunRecoilInitialAmplitude" : 0.7,
+  "shakeRecoilAmplitude" : 0.4,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 1,
+  "inspectCooldownDuration": 6500,
+  "features" :[
+    {
+      "type": "fireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 90,
+          "animationName": "animation.model.fire"
+        },
+        {
+          "name" : "hipfire",
+          "displayName":"label.pointblank.fireMode.hipfire",
+          "type": "AUTOMATIC",
+          "rpm": 200,
+          "aimingEnabled" : false,
+          "gunRecoilInitialAmplitude" : 0.7,
+          "shakeRecoilAmplitude": 0.55,
+          "shakeRecoilSpeed": 1.0,
+          "animationName": "animation.model.hipfire",
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparehip",
+              "duration": 170,
+              "condition": {
+                "selectedFireMode": "hipfire"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 1100,
+      "animation": "animation.model.prepare",
+      "shakeEffects": [
+        {
+          "start": 400,
+          "duration": 1000,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.2
+        }
+      ]
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 1100,
+      "animation": "animation.model.prepare",						
+      "shakeEffects": [
+        {
+          "start": 400,
+          "duration": 1000,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.2
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 830,
+      "animation": "animation.model.iterativeload",						
+      "shakeEffects": [
+        {
+          "start": 540,
+          "duration": 500,
+          "initialAmplitude": 0.3,
+          "rateOfAmplitudeDecay": 0.2
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 830,
+      "animation": "animation.model.iterativeload",						
+      "shakeEffects": [
+        {
+          "start": 540,
+          "duration": 500,
+          "initialAmplitude": 0.3,
+          "rateOfAmplitudeDecay": 0.2
+        }
+      ]
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 670,
+      "animation": "animation.model.finish"						
+    }  
+  ],
+  "effects": [
+        {
+                "phase": "hit_scan_acquired",
+                "name": "tracer"
+        },
+        {
+                "phase": "firing",
+                "name": "muzzle_flash"
+        }
+  ]
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="halflife">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pointblank/halflife-ext 0/halflife.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

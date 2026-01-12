@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="doom">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pointblank/doom-ext v1-2/doom.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

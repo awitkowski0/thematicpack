@@ -1,0 +1,17 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 6,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 3,
+      "tag": "forge:ingots/copper"
+    }
+  ],
+  "result": {
+    "count": 10,
+    "item": "pointblank:rifle_ammo"
+  }
+}

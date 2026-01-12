@@ -1,0 +1,16 @@
+{
+  "name" : "scope_rollingblock",
+  "type": "Attachment",
+  "category": "scope",
+  "features" : [
+    {
+      "type": "Aiming",
+      "zoom": 0.5
+    },
+    {
+        "type": "PIP",
+        "overlayTexture": "textures/gui/rdw_scope_pip2.png",
+        "zoom": 0.8
+    }
+  ]
+}
