@@ -249,6 +249,10 @@ file = "pointblank/Cyberpunk_2077_Guns_Pack_1.17.2.zip"
 hash = "ea83a299506a81ec5cc3f7e0039e6d9199f21af0698b3d15f8320da92442f32f"
 
 [[files]]
+file = "pointblank/README.md"
+hash = "cf7d4c0015bfb4fcb9fb96b214b1e4005e53e7dac95d11fa582688bc3e3d2437"
+
+[[files]]
 file = "pointblank/RedDeadWeaponry.zip"
 hash = "0ebb1c22f9438e8a0f0ba08a3256c94b1460e2df8a0cfc6d77a76a67e630b11b"
 

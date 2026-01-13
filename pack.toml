@@ -3,11 +3,10 @@ author = "funalex"
 version = "1.5.4"
 pack-format = "packwiz:1.1.0"
 
-
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "37eadba680825f0da84ff082f5dc1bd88d4333d161345a641934ac5e08833b93"
+hash = "4f22b38a96610c898b446a153f65e173b3fe8eec604e116597cdd02dc603bd62"
 
 [versions]
 fabric = "0.18.4"
