@@ -71,7 +71,10 @@ jobs:
           packwiz modrinth export --output "${FILENAME}.mrpack"
           packwiz curseforge export --output "${FILENAME}.zip"
 
-      - name: Publish Modpack
+      - name: Debug Output
+        run: ls -lh
+
+      - name: Publish to Modrinth
         if: steps.check_version.outputs.changed == 'true'
         uses: kir-antipov/mc-publish@v3.3
         with:
@@ -83,6 +86,13 @@ jobs:
           modrinth-files: ${{ steps.check_version.outputs.filename }}.mrpack
           modrinth-version: ${{ steps.check_version.outputs.version }}
           modrinth-name: "thematipack-fabric-${{ steps.check_version.outputs.mc_version }}-${{ steps.check_version.outputs.version }}"
+          
+      - name: Publish to CurseForge
+        if: steps.check_version.outputs.changed == 'true'
+        uses: kir-antipov/mc-publish@v3.3
+        with:
+          loaders: fabric
+          game-versions: ${{ steps.check_version.outputs.mc_version }}
           
           curseforge-id: 891633
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
