@@ -75,6 +75,9 @@ jobs:
         if: steps.check_version.outputs.changed == 'true'
         uses: kir-antipov/mc-publish@v3.3
         with:
+          loaders: fabric
+          game-versions: ${{ steps.check_version.outputs.mc_version }}
+          
           modrinth-id: H2FuEoJM
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           modrinth-files: ${{ steps.check_version.outputs.filename }}.mrpack
