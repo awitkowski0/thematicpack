@@ -15,8 +15,9 @@ hash = "6762e9c0caa67dd63c67d8c220b6b7b0cd7f0e063766bfd91eaa4a05ecac11bd"
 metafile = true
 
 [[files]]
-file = "mods/balm-fabric-1.20.1-7.3.38.jar"
-hash = "79b2da7aaf1b4b6dbd181049da88af63457450d565294e34794d6590b13a2b89"
+file = "mods/balm-fabric.pw.toml"
+hash = "13ac60a79ecbd89dadcf7397e3a19b6363e93d293a0632efa553c54562f8ce7d"
+metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
