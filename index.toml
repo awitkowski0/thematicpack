@@ -225,8 +225,13 @@ hash = "b69ac7037683a4ff97a93efb144075708409de8207d6572d56dbcc69c2025445"
 metafile = true
 
 [[files]]
+file = "mods/thematic-api.pw.toml"
+hash = "34acdef2d35ec07ff9c2fdd454732fc801d336ca8b9dc99f2964abeda47bc0d6"
+metafile = true
+
+[[files]]
 file = "mods/thematic-superheroes.pw.toml"
-hash = "cca3af639c3b632834a7e556b7f90a30dc312c145b12b37bff18d204fdb3d51b"
+hash = "949b0e5cffa60a17bc54d66c2a61c79db2e2b215e69adebc074a0d58ec1cf771"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Thematic"
+filename = "thematic-fabric-1.20.1-1.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3aee4f2a4112cbe4cde9d5d608a09336f561eb74"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7452263
+project-id = 1416960
