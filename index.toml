@@ -10,18 +10,8 @@ hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
 metafile = true
 
 [[files]]
-file = "mods/backported-wolves.pw.toml"
-hash = "6762e9c0caa67dd63c67d8c220b6b7b0cd7f0e063766bfd91eaa4a05ecac11bd"
-metafile = true
-
-[[files]]
 file = "mods/balm-fabric.pw.toml"
 hash = "13ac60a79ecbd89dadcf7397e3a19b6363e93d293a0632efa553c54562f8ce7d"
-metafile = true
-
-[[files]]
-file = "mods/chat-heads.pw.toml"
-hash = "d1c4b6ef4ff3b07a857c13462bce0e824aa167d69739025ef2bd8822497e76ca"
 metafile = true
 
 [[files]]
@@ -130,11 +120,6 @@ hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
 metafile = true
 
 [[files]]
-file = "mods/options-profiles.pw.toml"
-hash = "368844efce3e67e716b2635e80be16359fb662a528ba23908646efc63ca785eb"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "9a0ab52020c3a2d073e71f07ce11b9d2d8ae0a17b8a3cf0c9227029a51df51c3"
 metafile = true
@@ -226,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/thematic-api.pw.toml"
-hash = "34acdef2d35ec07ff9c2fdd454732fc801d336ca8b9dc99f2964abeda47bc0d6"
+hash = "7e54880a90281dc1dea1bd713fcfc85e9bf83d831c9858b9a77aa4184b1c8608"
 metafile = true
 
 [[files]]
