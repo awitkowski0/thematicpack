@@ -3,11 +3,11 @@ filename = "dungeonz-1.0.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1a081c62c427ce427f59a6c84a2991857de4360b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/11jwniuC/versions/IoQfGPq7/dungeonz-1.0.6.jar"
+hash-format = "sha512"
+hash = "13cf4355430b5f41a29899f776471ec8716e19b3dfa4ece282ee59dc9dcea77165233db5a2cdd4facdd629b924040f11ad33c930ccd6ed8c39e0544071569015"
 
 [update]
-[update.curseforge]
-file-id = 5492663
-project-id = 864150
+[update.modrinth]
+mod-id = "11jwniuC"
+version = "IoQfGPq7"
