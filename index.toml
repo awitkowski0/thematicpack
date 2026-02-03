@@ -55,6 +55,11 @@ hash = "d5141803f665e0525f4da5612b9bafe9c0b3f749104eeb0ed0abde83a60050d8"
 metafile = true
 
 [[files]]
+file = "mods/dungeonz.pw.toml"
+hash = "13567e260000f37eb096a6152cc0374121c8456a869732f1ca914a679e2697cc"
+metafile = true
+
+[[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
 hash = "f13d5af6bd8df9643f54fb8e7563d72697c1b36f3651a78fa17e31b55c3957eb"
 metafile = true
