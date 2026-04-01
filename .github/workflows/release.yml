@@ -84,6 +84,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    environment:
+      name: production
+      url: https://www.curseforge.com/minecraft/modpacks/thematipack-fabric
 
     steps:
       - name: Checkout Repository
