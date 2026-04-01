@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".ruff_cache/0.15.8/5375186707869097813"
-hash = "1fbb23fb3d12ffd68d863e4a05c4e246656e9814d62d9e32629e9fad2dd611e7"
+hash = "3dd2a3e63915e71e09d177cc4a40c53bfedc9968fe7011d88c54d438ed456bc9"
 
 [[files]]
 file = ".ruff_cache/CACHEDIR.TAG"
@@ -194,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "mods/sdm-shop.pw.toml"
-hash = "379d12c9c8c5a995c18e3d6244207575544ebd18b1d63f762732ce84b06bf78c"
+hash = "fca21401fe7edd6f1f0d8d3deb083bd93420513d98e0c24cb6279335004b8e15"
 metafile = true
 
 [[files]]
@@ -267,5 +267,65 @@ file = "server-updates/Patchouli-1.20.1-85-FABRIC.jar"
 hash = "485e23ab9727c7e9f585f435020d733706a80c7f0a1dc20e85c7398e1d76b919"
 
 [[files]]
+file = "server-updates/Platform-fabric-1.20.1-1.3.jar"
+hash = "ec3692eaea7e4b44eef80209373e2d3bda32745ee3ccf40d4fa7ab8b5e241eeb"
+
+[[files]]
+file = "server-updates/README.md"
+hash = "6b6f62ac77b916ac7da6749b7f1ca453c6bb84664380dc66558ab841ae25b9dd"
+
+[[files]]
+file = "server-updates/connectivity-fabric-1.20.1-7.6.jar"
+hash = "e7314a5ccb1952ba0430e3a69dd9c13bf79c2f3eee48359d2f6d08a57a9e4a23"
+
+[[files]]
+file = "server-updates/constructionwand-2.1.0+1.20.1.jar"
+hash = "60fc8e41398cc33217dfa1e5ab68a528d4cfa0c09b76b4602da974ff0b7f3b23"
+
+[[files]]
+file = "server-updates/cupboard-fabric-1.20.1-3.5.jar"
+hash = "18f5b34dd61cc45e4b0a28857c0b9ffb32cb1f9d8015f3803a149349ce5a7d8f"
+
+[[files]]
+file = "server-updates/easy_npc-fabric-1.20.1-6.11.0.jar"
+hash = "8a8b4343d3d939dde1ca2436805f3b0891c926d8e6e92838ab3c410f542803aa"
+
+[[files]]
+file = "server-updates/easy_npc_config_ui-fabric-1.20.1-6.11.0.jar"
+hash = "7cd672b845192d7a5a2024e1f9fee59f155bfb1d570dc88ba4e49a6f92b4717e"
+
+[[files]]
 file = "server-updates/fabric-api-0.92.7+1.20.1.jar"
 hash = "d5e7750a599ee23d1e8ce1716f27c4761f4e7a84e8a08d5eb8f0ad8c155c8cb1"
+
+[[files]]
+file = "server-updates/fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar"
+hash = "f288f0273fa9d592b07869fa2bbd7bdca274998a38b87eb8485c109420921e2a"
+
+[[files]]
+file = "server-updates/ftb-library-fabric-2001.2.12.jar"
+hash = "d0f868c1d9bbf5a8bf681ff411cb71a4057e27cc70d71e0f115eef2a259511d4"
+
+[[files]]
+file = "server-updates/geckolib-fabric-1.20.1-4.8.3.jar"
+hash = "6f5d84c8eafd67b911d2a335bacfbe281773dcdb52435c742dd894e21c39df1b"
+
+[[files]]
+file = "server-updates/indium-1.0.27+mc1.20.1.jar"
+hash = "9789a93f1aeb235d74d54df6e81a371aaf15cd1a9805f68d1cfadbdf4be99361"
+
+[[files]]
+file = "server-updates/moonlight-1.20-2.16.28-fabric.jar"
+hash = "9d08793bf03f4e1f9d8045e0e5adfcd4a49bc4bec69504d9abdc22722aa82eb0"
+
+[[files]]
+file = "server-updates/pointblank-fabric-1.20.1-1.11.1.jar"
+hash = "cd38c40d1670155bbc75ac5d659095e0a8a90fee384b58c4d99442efc5d11df6"
+
+[[files]]
+file = "server-updates/sodium-fabric-0.5.8+mc1.20.1.jar"
+hash = "cb19c646b6bc09ae75cb438c44d13a3ef3625ef0e2fb8fbc83168746df7d0291"
+
+[[files]]
+file = "server-updates/voicechat-fabric-1.20.1-2.6.14.jar"
+hash = "a0f92398a6f1c56b5121674ddd70781f941eea09f3e75550d6b68daa622f9c5c"
