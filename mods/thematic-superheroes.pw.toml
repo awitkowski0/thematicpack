@@ -1,13 +1,13 @@
 name = "Thematic Superheroes (Fabric)"
-filename = "thematic-heroes-1.20.1-1.0.2.jar"
+filename = "thematic-heroes-1.20.1-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f81080db0afb6333642852039a59dc064ec029e8"
+hash = "013aaa6b729ed2cfd31ea77f694271b660d782ea"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7452890
+file-id = 7857681
 project-id = 334893

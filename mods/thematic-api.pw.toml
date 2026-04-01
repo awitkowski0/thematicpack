@@ -1,13 +1,13 @@
 name = "Thematic Core (Fabric)"
-filename = "thematic-fabric-1.20.1-1.5.5.jar"
+filename = "thematic-fabric-1.20.1-1.5.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6bbe6e0043b13ed53cc46952fde87645ae5da666"
+hash = "3ffa3f8d1bb9713edf0c44c12acb99f81f57c8f1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7464034
+file-id = 7857691
 project-id = 1416960
