@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".ruff_cache/0.15.8/5375186707869097813"
+hash = "1fbb23fb3d12ffd68d863e4a05c4e246656e9814d62d9e32629e9fad2dd611e7"
+
+[[files]]
+file = ".ruff_cache/CACHEDIR.TAG"
+hash = "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+
+[[files]]
 file = "config/default-hotkeys.json"
 hash = "67aadf146b631a7dd10bda1fbe6f86db9a97076191caca610c6dd91a792e6b8c"
 
@@ -176,17 +184,17 @@ metafile = true
 
 [[files]]
 file = "mods/sdm-economy.pw.toml"
-hash = "d6236c3b7537a85c0b18c8e6119fcd5edfd1e3b3afb305e12f05c2ca23c8c3bc"
+hash = "3012b7745d746899623aff1e0c5c4f8110e82b49272da68334bdaf26156b65a5"
 metafile = true
 
 [[files]]
 file = "mods/sdm-market.pw.toml"
-hash = "573e36998513e4f02eab909ee19ceb96962455e34c75c6658e4164f652dd5430"
+hash = "188d2781240441e291bc4a238ec1ff462c161c121a26afa2efd37eb7cb70e538"
 metafile = true
 
 [[files]]
 file = "mods/sdm-shop.pw.toml"
-hash = "fca21401fe7edd6f1f0d8d3deb083bd93420513d98e0c24cb6279335004b8e15"
+hash = "379d12c9c8c5a995c18e3d6244207575544ebd18b1d63f762732ce84b06bf78c"
 metafile = true
 
 [[files]]
@@ -253,3 +261,11 @@ hash = "3ac4ab8075c70a73a0bb713b46153cf2c24ad6dac63327a2e7249dcee1f1f62b"
 [[files]]
 file = "pointblank/halflife-ext 0.7.zip"
 hash = "747ef59203d18df7b17c99c7bc59087390b576581f8e4baefc213e871ba6a178"
+
+[[files]]
+file = "server-updates/Patchouli-1.20.1-85-FABRIC.jar"
+hash = "485e23ab9727c7e9f585f435020d733706a80c7f0a1dc20e85c7398e1d76b919"
+
+[[files]]
+file = "server-updates/fabric-api-0.92.7+1.20.1.jar"
+hash = "d5e7750a599ee23d1e8ce1716f27c4761f4e7a84e8a08d5eb8f0ad8c155c8cb1"
