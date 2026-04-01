@@ -1,16 +1,16 @@
-name: Release Modpack
+name: Release Both
 
 on:
   workflow_dispatch:
     inputs:
       force_release:
-        description: 'Force release even if version matches??'
+        description: 'Force release even if version matches?'
         required: false
         type: boolean
         default: true
 
 jobs:
-  release:
+  release-modrinth:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,23 +36,19 @@ jobs:
       - name: Calculate Version Variables
         id: check_version
         run: |
-          # Get the current version from pack.toml
           CURRENT_VERSION=$(grep 'version = ' pack.toml | cut -d '"' -f 2)
           MC_VERSION=$(grep 'minecraft = ' pack.toml | cut -d '"' -f 2)
           
-          # Construct filename: thematipack-fabric-1.20.1-1.5.34
           FILENAME="thematipack-fabric-${MC_VERSION}-${CURRENT_VERSION}"
           
           echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
           echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
           echo "filename=$FILENAME" >> $GITHUB_OUTPUT
 
-          # Check for changes if not manual dispatch
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-             echo "Manual dispatch detecting. Proceeding with release for $CURRENT_VERSION."
+             echo "Manual dispatch. Proceeding with release for $CURRENT_VERSION."
              echo "changed=true" >> $GITHUB_OUTPUT
           else
-             # Get the previous version from the last commit
              PREVIOUS_VERSION=$(git show HEAD^:pack.toml | grep 'version = ' | cut -d '"' -f 2)
              
              if [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
@@ -68,11 +64,8 @@ jobs:
         if: steps.check_version.outputs.changed == 'true'
         run: |
           FILENAME="${{ steps.check_version.outputs.filename }}"
-          packwiz modrinth export --output "${FILENAME}.mrpack"
-          packwiz curseforge export --output "${FILENAME}.zip"
-
-      - name: Debug Output
-        run: ls -lh
+          sed -i 's/version = ".*"/version = "${{ steps.check_version.outputs.version }}"/' modrinth/pack.toml
+          cd modrinth && packwiz modrinth export --output "../${FILENAME}.mrpack"
 
       - name: Publish to Modrinth
         if: steps.check_version.outputs.changed == 'true'
@@ -86,7 +79,61 @@ jobs:
           modrinth-files: ${{ steps.check_version.outputs.filename }}.mrpack
           modrinth-version: ${{ steps.check_version.outputs.version }}
           modrinth-name: "thematipack-fabric-${{ steps.check_version.outputs.mc_version }}-${{ steps.check_version.outputs.version }}"
+
+  release-curseforge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Calculate Version Variables
+        id: check_version
+        run: |
+          CURRENT_VERSION=$(grep 'version = ' pack.toml | cut -d '"' -f 2)
+          MC_VERSION=$(grep 'minecraft = ' pack.toml | cut -d '"' -f 2)
           
+          FILENAME="thematipack-fabric-${MC_VERSION}-${CURRENT_VERSION}"
+          
+          echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+          echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+             echo "Manual dispatch. Proceeding with release for $CURRENT_VERSION."
+             echo "changed=true" >> $GITHUB_OUTPUT
+          else
+             PREVIOUS_VERSION=$(git show HEAD^:pack.toml | grep 'version = ' | cut -d '"' -f 2)
+             
+             if [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
+               echo "Version changed from $PREVIOUS_VERSION to $CURRENT_VERSION"
+               echo "changed=true" >> $GITHUB_OUTPUT
+             else
+               echo "Version did not change ($CURRENT_VERSION)"
+               echo "changed=false" >> $GITHUB_OUTPUT
+             fi
+          fi
+
+      - name: Export Modpack
+        if: steps.check_version.outputs.changed == 'true'
+        run: |
+          FILENAME="${{ steps.check_version.outputs.filename }}"
+          sed -i 's/version = ".*"/version = "${{ steps.check_version.outputs.version }}"/' curseforge/pack.toml
+          cd curseforge && packwiz curseforge export --output "../${FILENAME}.zip"
+
       - name: Publish to CurseForge
         if: steps.check_version.outputs.changed == 'true'
         uses: kir-antipov/mc-publish@v3.3

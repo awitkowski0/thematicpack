@@ -1,0 +1,13 @@
+name = "thematipack-fabric"
+author = "funalex"
+version = "1.5.6"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "dae8ba9f9668fc99074cd89a1a2a7b31b80e258740404c7ef7f3b9f447a653bf"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.20.1"
