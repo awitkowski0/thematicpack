@@ -1,13 +1,13 @@
 name = "SDM Shop [Forge/Fabric]"
-filename = "SDMShop-fabric-1.20.1-7.2.0.jar"
+filename = "sdmshoprework-fabric-1.20.1-6.11-pre.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7eee616fafcb92ef652c5dd42ecb2f2ece41f900"
+hash = "c04f6ac665e501363207cde42a8abbdc6773b020"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7435189
+file-id = 6340165
 project-id = 948942

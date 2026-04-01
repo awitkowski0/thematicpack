@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/sdm-shop.pw.toml"
-hash = "379d12c9c8c5a995c18e3d6244207575544ebd18b1d63f762732ce84b06bf78c"
+hash = "fca21401fe7edd6f1f0d8d3deb083bd93420513d98e0c24cb6279335004b8e15"
 metafile = true
 
 [[files]]
