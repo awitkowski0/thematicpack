@@ -1,13 +1,13 @@
 name = "Keybind Fix"
 filename = "keybind_fix-1.0.0.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "22d779169f893f48bd3d16e7b6f8f3dd65c8fbbb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/vuWNr14n/versions/4VeEKlR8/keybind_fix-1.0.0.jar"
+hash-format = "sha512"
+hash = "c8c75e78be39a79875543d4b2134d804ccd289d03b377eb7048065becf103375627a9e305da074f2b53a548f238bd3788c10b63bbb92d15b278ab5c7e3f30b92"
 
 [update]
-[update.curseforge]
-file-id = 3860971
-project-id = 640307
+[update.modrinth]
+mod-id = "vuWNr14n"
+version = "4VeEKlR8"

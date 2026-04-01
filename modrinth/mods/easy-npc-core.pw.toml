@@ -3,11 +3,11 @@ filename = "easy_npc-fabric-1.20.1-6.11.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "36bf88ff9f5cb590f3a47b565da409afffe5f06d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Epm6R3P2/versions/oaZVScRV/easy_npc-fabric-1.20.1-6.11.0.jar"
+hash-format = "sha512"
+hash = "e0682c21b41b80ff4547ffda7baadf258494c07d750069409e6feb1e66d1f850391e3e7da6ba7eeeb3e9ef7ecd122e98a6e0480d1b0ef38f8b406b640cca6e1e"
 
 [update]
-[update.curseforge]
-file-id = 7776926
-project-id = 1308987
+[update.modrinth]
+mod-id = "Epm6R3P2"
+version = "oaZVScRV"

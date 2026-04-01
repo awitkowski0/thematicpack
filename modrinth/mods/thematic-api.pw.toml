@@ -1,13 +1,13 @@
-name = "Thematic Core (Fabric)"
+name = "Thematic"
 filename = "thematic-fabric-1.20.1-1.5.10.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bd6255790da753c1053161e1edd277770bb2587e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/vqawzx7L/versions/UtwFNBdD/thematic-fabric-1.20.1-1.5.10.jar"
+hash-format = "sha512"
+hash = "05828d8bde93d366b8e469e3c26900ce23b0a5b5b8a92f8d823a61c20ac90ed647ed002920ddc109d0873147fdef67506d4ea0e454eafc0b63a791e772a2596f"
 
 [update]
-[update.curseforge]
-file-id = 7857691
-project-id = 1416960
+[update.modrinth]
+mod-id = "vqawzx7L"
+version = "UtwFNBdD"

@@ -1,13 +1,13 @@
 name = "Roughly Enough Trades"
 filename = "RoughlyEnoughTrades-fabric-1.20.1-1.0.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "ea6568016f1996d352bfb103df4d58a0ce86fa60"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/SRDQqMfX/versions/lgCNDz9j/RoughlyEnoughTrades-fabric-1.20.1-1.0.jar"
+hash-format = "sha512"
+hash = "6ddc715920d730f6d9e9f42f053e966476571d4aeb0e6976c56792df44be22cda4858f0dd1db914d6cb6968cc3eba490ecd5d50208b316ca43bea3ed112bb5e8"
 
 [update]
-[update.curseforge]
-file-id = 6513315
-project-id = 664356
+[update.modrinth]
+mod-id = "SRDQqMfX"
+version = "lgCNDz9j"

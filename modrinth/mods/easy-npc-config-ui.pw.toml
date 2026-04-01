@@ -3,11 +3,11 @@ filename = "easy_npc_config_ui-fabric-1.20.1-6.11.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "61eb40604cfae6b721adbab02b5b6bd99fed5e83"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/uTGjf7vA/versions/B87dK1uE/easy_npc_config_ui-fabric-1.20.1-6.11.0.jar"
+hash-format = "sha512"
+hash = "defe011f549fb16548db161d1b28d6db79f343d9b23858662d1b121d7740c2d4ba3c1cbcf37b876442c86f99fdcf08d49968942de2935d6c1d5f3dc97ef760bd"
 
 [update]
-[update.curseforge]
-file-id = 7776929
-project-id = 1214728
+[update.modrinth]
+mod-id = "uTGjf7vA"
+version = "B87dK1uE"

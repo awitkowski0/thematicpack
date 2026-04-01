@@ -1,13 +1,13 @@
-name = "SDM Shop [Forge/Fabric]"
-filename = "sdmshoprework-fabric-1.20.1-6.11-pre.jar"
+name = "SDM Shop"
+filename = "SDMShop-fabric-1.20.1-7.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c04f6ac665e501363207cde42a8abbdc6773b020"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/dOrw4veV/versions/gqBP7S1y/SDMShop-fabric-1.20.1-7.2.0.jar"
+hash-format = "sha512"
+hash = "82d72de01afa4060d58d92c4834b55c16cf0873cc43564dd3d69bd2eb0a146c55a588ca56c326b7c88543707f9e1ffdf10053ccead81409bfcc769ced83863f4"
 
 [update]
-[update.curseforge]
-file-id = 6340165
-project-id = 948942
+[update.modrinth]
+mod-id = "dOrw4veV"
+version = "gqBP7S1y"

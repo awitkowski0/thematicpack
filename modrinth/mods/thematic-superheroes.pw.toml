@@ -1,13 +1,13 @@
-name = "Thematic Superheroes (Fabric)"
+name = "Thematic Superheroes"
 filename = "thematic-heroes-1.20.1-1.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4d16ab83499a62f91ae8dac843e8243c0ff78756"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/X8IXdS40/versions/QgwrgwAt/thematic-heroes-1.20.1-1.0.3.jar"
+hash-format = "sha512"
+hash = "19130d8d1074c655a034575ebeb6ee11f8abe34de4bf8a186f27406ef9a0cf2a4ab27c10759ce2a45ea68ad3912c0c4fff15b1c6c7cec6853f82879a452fd42e"
 
 [update]
-[update.curseforge]
-file-id = 7857681
-project-id = 334893
+[update.modrinth]
+mod-id = "X8IXdS40"
+version = "QgwrgwAt"
