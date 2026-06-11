@@ -160,8 +160,8 @@ hash = "b698e2544ea33482081e892d2e531525f117599e736768e2c8998b649d5f0b9d"
 metafile = true
 
 [[files]]
-file = "curseforge/mods/terrablender.pw.toml"
-hash = "b3ae602303fd717bff2344bfb89aa427e2b4a1ab5fffdcc25183b22102c492df"
+file = "curseforge/mods/terrablender-fabric.pw.toml"
+hash = "b69ac7037683a4ff97a93efb144075708409de8207d6572d56dbcc69c2025445"
 metafile = true
 
 [[files]]
@@ -175,8 +175,8 @@ hash = "174ff183a11c096be799e93b149f7657230286f7dcbc3bda9427c388a566123e"
 metafile = true
 
 [[files]]
-file = "curseforge/mods/toms-storage.pw.toml"
-hash = "c57e5187ae4382be6c19e596c8a3f4a7a2b4d566c16c6fc8ad8a0629dc9454d1"
+file = "curseforge/mods/toms-storage-fabric.pw.toml"
+hash = "a4cfb5083b9d014b87293d694d62f61ba3c64c6903885d7c1d46f46cc581f589"
 metafile = true
 
 [[files]]
