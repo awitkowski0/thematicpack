@@ -1,0 +1,332 @@
+[
+  {
+    "comment": "key.advancements",
+    "translation": "Advancements",
+    "key": "key.keyboard.l"
+  },
+  {
+    "comment": "key.attack",
+    "translation": "Attack/Destroy",
+    "key": "key.mouse.left"
+  },
+  {
+    "comment": "key.back",
+    "translation": "Walk Backwards",
+    "key": "key.keyboard.s"
+  },
+  {
+    "comment": "key.chat",
+    "translation": "Open Chat",
+    "key": "key.keyboard.t"
+  },
+  {
+    "comment": "key.command",
+    "translation": "Open Command",
+    "key": "key.keyboard.slash"
+  },
+  {
+    "comment": "key.constructionwand.menu_key",
+    "translation": "key.constructionwand.menu_key",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.constructionwand.opt_key",
+    "translation": "key.constructionwand.opt_key",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.disable_voice_chat",
+    "translation": "key.disable_voice_chat",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.drop",
+    "translation": "Drop Selected Item",
+    "key": "key.keyboard.q"
+  },
+  {
+    "comment": "key.forward",
+    "translation": "Walk Forwards",
+    "key": "key.keyboard.w"
+  },
+  {
+    "comment": "key.fullscreen",
+    "translation": "Toggle Fullscreen",
+    "key": "key.keyboard.f11"
+  },
+  {
+    "comment": "key.hide_icons",
+    "translation": "key.hide_icons",
+    "key": "key.keyboard.h"
+  },
+  {
+    "comment": "key.hotbar.1",
+    "translation": "Hotbar Slot 1",
+    "key": "key.keyboard.1"
+  },
+  {
+    "comment": "key.hotbar.2",
+    "translation": "Hotbar Slot 2",
+    "key": "key.keyboard.2"
+  },
+  {
+    "comment": "key.hotbar.3",
+    "translation": "Hotbar Slot 3",
+    "key": "key.keyboard.3"
+  },
+  {
+    "comment": "key.hotbar.4",
+    "translation": "Hotbar Slot 4",
+    "key": "key.keyboard.4"
+  },
+  {
+    "comment": "key.hotbar.5",
+    "translation": "Hotbar Slot 5",
+    "key": "key.keyboard.5"
+  },
+  {
+    "comment": "key.hotbar.6",
+    "translation": "Hotbar Slot 6",
+    "key": "key.keyboard.6"
+  },
+  {
+    "comment": "key.hotbar.7",
+    "translation": "Hotbar Slot 7",
+    "key": "key.keyboard.7"
+  },
+  {
+    "comment": "key.hotbar.8",
+    "translation": "Hotbar Slot 8",
+    "key": "key.keyboard.8"
+  },
+  {
+    "comment": "key.hotbar.9",
+    "translation": "Hotbar Slot 9",
+    "key": "key.keyboard.9"
+  },
+  {
+    "comment": "key.inventory",
+    "translation": "Open/Close Inventory",
+    "key": "key.keyboard.e"
+  },
+  {
+    "comment": "key.jump",
+    "translation": "Jump",
+    "key": "key.keyboard.space"
+  },
+  {
+    "comment": "key.left",
+    "translation": "Strafe Left",
+    "key": "key.keyboard.a"
+  },
+  {
+    "comment": "key.loadToolbarActivator",
+    "translation": "Load Hotbar Activator",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.mute_microphone",
+    "translation": "key.mute_microphone",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.pickItem",
+    "translation": "Pick Block",
+    "key": "key.mouse.middle"
+  },
+  {
+    "comment": "key.playerlist",
+    "translation": "List Players",
+    "key": "key.keyboard.tab"
+  },
+  {
+    "comment": "key.pointblack.attachments",
+    "translation": "key.pointblack.attachments",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.pointblack.firemode",
+    "translation": "key.pointblack.firemode",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.pointblack.inspect",
+    "translation": "key.pointblack.inspect",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.pointblack.reload",
+    "translation": "key.pointblack.reload",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.pointblack.scope_switch",
+    "translation": "key.pointblack.scope_switch",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.push_to_talk",
+    "translation": "key.push_to_talk",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.right",
+    "translation": "Strafe Right",
+    "key": "key.keyboard.d"
+  },
+  {
+    "comment": "key.saveToolbarActivator",
+    "translation": "Save Hotbar Activator",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.screenshot",
+    "translation": "Take Screenshot",
+    "key": "key.keyboard.f2"
+  },
+  {
+    "comment": "key.sdmmarket.market",
+    "translation": "key.sdmmarket.market",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.sdmshop.shopr",
+    "translation": "key.sdmshop.shopr",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.smoothCamera",
+    "translation": "Toggle Cinematic Camera",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.sneak",
+    "translation": "Sneak",
+    "key": "key.keyboard.left.shift"
+  },
+  {
+    "comment": "key.socialInteractions",
+    "translation": "Social Interactions Screen",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.spectatorOutlines",
+    "translation": "Highlight Players (Spectators)",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.sprint",
+    "translation": "Sprint",
+    "key": "key.keyboard.left.control"
+  },
+  {
+    "comment": "key.swapOffhand",
+    "translation": "Swap Item With Offhand",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.thematic.ability_0",
+    "translation": "key.thematic.ability_0",
+    "key": "key.keyboard.r"
+  },
+  {
+    "comment": "key.thematic.ability_1",
+    "translation": "key.thematic.ability_1",
+    "key": "key.keyboard.f"
+  },
+  {
+    "comment": "key.thematic.ability_2",
+    "translation": "key.thematic.ability_2",
+    "key": "key.keyboard.g"
+  },
+  {
+    "comment": "key.thematic.ability_3",
+    "translation": "key.thematic.ability_3",
+    "key": "key.keyboard.v"
+  },
+  {
+    "comment": "key.thematic.ability_4",
+    "translation": "key.thematic.ability_4",
+    "key": "key.keyboard.c"
+  },
+  {
+    "comment": "key.thematic.ability_5",
+    "translation": "key.thematic.ability_5",
+    "key": "key.keyboard.z"
+  },
+  {
+    "comment": "key.thematic.cosmetic",
+    "translation": "key.thematic.cosmetic",
+    "key": "key.keyboard.k"
+  },
+  {
+    "comment": "key.thematic.equip_item",
+    "translation": "key.thematic.equip_item",
+    "key": "key.keyboard.h"
+  },
+  {
+    "comment": "key.thematic.lower_speed",
+    "translation": "key.thematic.lower_speed",
+    "key": "key.keyboard.down"
+  },
+  {
+    "comment": "key.thematic.raise_speed",
+    "translation": "key.thematic.raise_speed",
+    "key": "key.keyboard.up"
+  },
+  {
+    "comment": "key.thematic.ultimate",
+    "translation": "key.thematic.ultimate",
+    "key": "key.keyboard.y"
+  },
+  {
+    "comment": "key.thematic.utility",
+    "translation": "key.thematic.utility",
+    "key": "key.keyboard.j"
+  },
+  {
+    "comment": "key.togglePerspective",
+    "translation": "Toggle Perspective",
+    "key": "key.keyboard.f5"
+  },
+  {
+    "comment": "key.toms_storage.open_terminal",
+    "translation": "key.toms_storage.open_terminal",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.use",
+    "translation": "Use Item/Place Block",
+    "key": "key.mouse.right"
+  },
+  {
+    "comment": "key.voice_chat",
+    "translation": "key.voice_chat",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.voice_chat_adjust_volumes",
+    "translation": "key.voice_chat_adjust_volumes",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.voice_chat_group",
+    "translation": "key.voice_chat_group",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.voice_chat_settings",
+    "translation": "key.voice_chat_settings",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.voice_chat_toggle_recording",
+    "translation": "key.voice_chat_toggle_recording",
+    "key": "key.keyboard.unknown"
+  },
+  {
+    "comment": "key.whisper",
+    "translation": "key.whisper",
+    "key": "key.keyboard.unknown"
+  }
+]
