@@ -1,205 +1,205 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/default-hotkeys.json"
+file = "curseforge/config/default-hotkeys.json"
 hash = "67aadf146b631a7dd10bda1fbe6f86db9a97076191caca610c6dd91a792e6b8c"
 
 [[files]]
-file = "mods/architectury-api.pw.toml"
+file = "curseforge/mods/architectury-api.pw.toml"
 hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
 metafile = true
 
 [[files]]
-file = "mods/balm.pw.toml"
+file = "curseforge/mods/balm.pw.toml"
 hash = "30eff8901d5955ab62196e335926047f6c00278fd95eb04b4e4b7122a8c31f15"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config.pw.toml"
+file = "curseforge/mods/cloth-config.pw.toml"
 hash = "41a3dc271859b118417946d2fdb2408523563b2f4f49048073672a342fb1aebf"
 metafile = true
 
 [[files]]
-file = "mods/deltaboxlib.pw.toml"
+file = "curseforge/mods/deltaboxlib.pw.toml"
 hash = "0c2fe6437fde3f70b333d4d3381a677c9803fbc1c78c2cc475ada606ab4e9e51"
 metafile = true
 
 [[files]]
-file = "mods/dungeonz.pw.toml"
+file = "curseforge/mods/dungeonz.pw.toml"
 hash = "8f8947aa03c4ac3ee487822e17ad3f990353c11fb3cfc050f564b0ef6e2cd560"
 metafile = true
 
 [[files]]
-file = "mods/easy-npc-config-ui.pw.toml"
+file = "curseforge/mods/easy-npc-config-ui.pw.toml"
 hash = "5d61590fdec7dd1ec2a40ba8e0b425c6eaba40f6da13f34f7ad622929b9ad0b2"
 metafile = true
 
 [[files]]
-file = "mods/easy-npc-core.pw.toml"
+file = "curseforge/mods/easy-npc-core.pw.toml"
 hash = "090c6e2afbf4f71c45607642dfb904ead5fb21c97ca418f4f45ebc1a8a259c56"
 metafile = true
 
 [[files]]
-file = "mods/easy-npc.pw.toml"
+file = "curseforge/mods/easy-npc.pw.toml"
 hash = "01aa7fac5849d7593a3f32e1628887b8c411a6b090a43933c43e7e4b9fd93cbe"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.pw.toml"
+file = "curseforge/mods/fabric-api.pw.toml"
 hash = "1ee56d5feb0ede9397b26f3c5b7543a3556088146d154b55172ef0e8b1a97705"
 metafile = true
 
 [[files]]
-file = "mods/fabric-language-kotlin.pw.toml"
+file = "curseforge/mods/fabric-language-kotlin.pw.toml"
 hash = "e49f549eecbe502a3da6d731d6e28783631b14b0bba7bba9780a1075e7926776"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port.pw.toml"
+file = "curseforge/mods/forge-config-api-port.pw.toml"
 hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
 metafile = true
 
 [[files]]
-file = "mods/geckolib.pw.toml"
+file = "curseforge/mods/geckolib.pw.toml"
 hash = "3ba1f8150b574b10a258a4af832ed6fa1817b8ec2a2401fe29b303238778c1c6"
 metafile = true
 
 [[files]]
-file = "mods/keybind-fix.pw.toml"
+file = "curseforge/mods/keybind-fix.pw.toml"
 hash = "d4bec8fbdd1d60036b5820db43f02d2df3ca80b4fbf70c3025bef748014b00aa"
 metafile = true
 
 [[files]]
-file = "mods/konkrete.pw.toml"
+file = "curseforge/mods/konkrete.pw.toml"
 hash = "d6be91dc0a2aca23ee640818d8a8295c85ddb2db6e0413669ecac9600b01eef0"
 metafile = true
 
 [[files]]
-file = "mods/melody.pw.toml"
+file = "curseforge/mods/melody.pw.toml"
 hash = "a387dcfe8d66bcde451407d5608af67e95720dea13d94a20e13ad5340f6bec6e"
 metafile = true
 
 [[files]]
-file = "mods/mmmmmmmmmmmm.pw.toml"
+file = "curseforge/mods/mmmmmmmmmmmm.pw.toml"
 hash = "03b7b5e918aaf6324e4d34c1868c3f44a218b5306bd321efa89ee50ec78c2299"
 metafile = true
 
 [[files]]
-file = "mods/moonlight.pw.toml"
+file = "curseforge/mods/moonlight.pw.toml"
 hash = "60dd0c8cd8ee5c017041e5d15106aa1cb96fad82ac6ddd1a297d8d7d4fe4e2dd"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
+file = "curseforge/mods/mouse-tweaks.pw.toml"
 hash = "b6685e98fce8f1f45868b9df3dbaa410ec23bb64896c826be596d98b01326116"
 metafile = true
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
+file = "curseforge/mods/no-chat-reports.pw.toml"
 hash = "9ce6efc7149cdae2deb751b4ebf2d220700cc1b204e7a1d026275203387f106b"
 metafile = true
 
 [[files]]
-file = "mods/owo-lib.pw.toml"
+file = "curseforge/mods/owo-lib.pw.toml"
 hash = "df4c4fe3aff1792aa7d19d097d5d1bc0c6e958e6e4ee32dbf148ecac62e1274d"
 metafile = true
 
 [[files]]
-file = "mods/patchouli.pw.toml"
+file = "curseforge/mods/patchouli.pw.toml"
 hash = "b087d57e8f876873a4eaeacdb80166c03e5158fa95cb15ffe6aa9571b76bf9d2"
 metafile = true
 
 [[files]]
-file = "mods/pehkui.pw.toml"
+file = "curseforge/mods/pehkui.pw.toml"
 hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
 metafile = true
 
 [[files]]
-file = "mods/platform.pw.toml"
+file = "curseforge/mods/platform.pw.toml"
 hash = "618356b89e50cb75efb535f296fcda69f6e4d0d7871525f3fbb9bf52d0e3174b"
 metafile = true
 
 [[files]]
-file = "mods/puzzles-lib.pw.toml"
+file = "curseforge/mods/puzzles-lib.pw.toml"
 hash = "a1eff7b33a54586b6989c7bfd89992f9d315f1c656b7596649d9af7017c6af7b"
 metafile = true
 
 [[files]]
-file = "mods/rei.pw.toml"
+file = "curseforge/mods/rei.pw.toml"
 hash = "2c5d9c47c2c16b1207f1335d10f99b1ba976bdc3363784674b8907ddd96e9c0a"
 metafile = true
 
 [[files]]
-file = "mods/roughly-enough-trades.pw.toml"
+file = "curseforge/mods/roughly-enough-trades.pw.toml"
 hash = "962cdc71508641434f55e2176ee064884ff1f7e00e6b4cd02e5d136077d887e7"
 metafile = true
 
 [[files]]
-file = "mods/sdm-market.pw.toml"
+file = "curseforge/mods/sdm-market.pw.toml"
 hash = "1c7494750580e4c9794c48ece5feac70b48bf013bd00adc90a3ab21f9521a648"
 metafile = true
 
 [[files]]
-file = "mods/sdm-shop.pw.toml"
+file = "curseforge/mods/sdm-shop.pw.toml"
 hash = "2f175ae911644712611bc6f9002b308e37365fe544c93be27dd6d335b2e78a4e"
 metafile = true
 
 [[files]]
-file = "mods/sdm-ui-lib.pw.toml"
+file = "curseforge/mods/sdm-ui-lib.pw.toml"
 hash = "343e03a862133d49ccac9fee8c18d19e229254b7f3e18bc3f6e776dbb1f69a3c"
 metafile = true
 
 [[files]]
-file = "mods/searchables.pw.toml"
+file = "curseforge/mods/searchables.pw.toml"
 hash = "830270b8e5a34f5621720ae09c4cf716a65d8003a30d585c8b817aba1fde9ac8"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
+file = "curseforge/mods/simple-voice-chat.pw.toml"
 hash = "b698e2544ea33482081e892d2e531525f117599e736768e2c8998b649d5f0b9d"
 metafile = true
 
 [[files]]
-file = "mods/terrablender.pw.toml"
+file = "curseforge/mods/terrablender.pw.toml"
 hash = "b3ae602303fd717bff2344bfb89aa427e2b4a1ab5fffdcc25183b22102c492df"
 metafile = true
 
 [[files]]
-file = "mods/thematic-api.pw.toml"
+file = "curseforge/mods/thematic-api.pw.toml"
 hash = "b807e7e66b4fa48f51ee8e6fc80a58443ace907bf22f7014e2f75badd24967bd"
 metafile = true
 
 [[files]]
-file = "mods/thematic-superheroes.pw.toml"
+file = "curseforge/mods/thematic-superheroes.pw.toml"
 hash = "174ff183a11c096be799e93b149f7657230286f7dcbc3bda9427c388a566123e"
 metafile = true
 
 [[files]]
-file = "mods/toms-storage.pw.toml"
+file = "curseforge/mods/toms-storage.pw.toml"
 hash = "c57e5187ae4382be6c19e596c8a3f4a7a2b4d566c16c6fc8ad8a0629dc9454d1"
 metafile = true
 
 [[files]]
-file = "mods/vics-point-blank.pw.toml"
+file = "curseforge/mods/vics-point-blank.pw.toml"
 hash = "c504ff07921eb507af700d22dd91451d4485081e5e2be07b08299e789d503003"
 metafile = true
 
 [[files]]
-file = "pointblank/Cyberpunk_2077_Guns_Pack_1.17.2.zip"
+file = "curseforge/pointblank/Cyberpunk_2077_Guns_Pack_1.17.2.zip"
 hash = "ea83a299506a81ec5cc3f7e0039e6d9199f21af0698b3d15f8320da92442f32f"
 
 [[files]]
-file = "pointblank/README.md"
+file = "curseforge/pointblank/README.md"
 hash = "cf7d4c0015bfb4fcb9fb96b214b1e4005e53e7dac95d11fa582688bc3e3d2437"
 
 [[files]]
-file = "pointblank/RedDeadWeaponry.zip"
+file = "curseforge/pointblank/RedDeadWeaponry.zip"
 hash = "0ebb1c22f9438e8a0f0ba08a3256c94b1460e2df8a0cfc6d77a76a67e630b11b"
 
 [[files]]
-file = "pointblank/doom-ext v1.3.5.zip"
+file = "curseforge/pointblank/doom-ext v1.3.5.zip"
 hash = "3ac4ab8075c70a73a0bb713b46153cf2c24ad6dac63327a2e7249dcee1f1f62b"
 
 [[files]]
-file = "pointblank/halflife-ext 0.7.zip"
+file = "curseforge/pointblank/halflife-ext 0.7.zip"
 hash = "747ef59203d18df7b17c99c7bc59087390b576581f8e4baefc213e871ba6a178"
