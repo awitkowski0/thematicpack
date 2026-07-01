@@ -1,13 +1,13 @@
 name = "Thematic Superheroes"
-filename = "thematic-heroes-1.20.1-1.0.3.jar"
+filename = "thematic-heroes-1.20.1-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/X8IXdS40/versions/QgwrgwAt/thematic-heroes-1.20.1-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/X8IXdS40/versions/PxzLo6pO/thematic-heroes-1.20.1-1.0.4.jar"
 hash-format = "sha512"
-hash = "19130d8d1074c655a034575ebeb6ee11f8abe34de4bf8a186f27406ef9a0cf2a4ab27c10759ce2a45ea68ad3912c0c4fff15b1c6c7cec6853f82879a452fd42e"
+hash = "37fdcd98b99b1f4a7ce0c6444801370965a9823cc8da22940f0f69036c7ac496d909eb5e0c761971e8ebfcab6c81cf1f0c68b33ddd5ad3470048f6d4802b72e0"
 
 [update]
 [update.modrinth]
 mod-id = "X8IXdS40"
-version = "QgwrgwAt"
+version = "PxzLo6pO"

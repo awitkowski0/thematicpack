@@ -1,12 +1,12 @@
 name = "thematipack-fabric"
 author = "funalex"
-version = "1.5.6"
+version = "1.6.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2a25d137bc39d4d0e0ea90f11d36d531e9d1b9f2304fbfbbb84a6936fc33cdc1"
+hash = "04332aadf6f3d24f96eb84c94760887c65d47a73a6a1d8b2a18c5d30673c987a"
 
 [versions]
 fabric = "0.18.4"
